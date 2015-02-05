@@ -1,0 +1,41 @@
+{
+  "name": "echoipdns",
+  "description": "Echo IP Wildcard DNS Server for dev environments",
+  "version": "0.2.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zapty/echoipdns"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "native-dns": "*",
+    "optimist": "",
+    "growl": "",
+    "async":"*"
+  },
+  "devDependencies": {
+    "vows": "0.5.11"
+  },
+  "engines": {
+    "node": ">=0.4.x"
+  },
+  "keywords": [
+    "wildcard",
+    "echo",
+    "ip",
+    "development",
+    "dns",
+    "dns server",
+    "wildard dns",
+    "hostname",
+    "cname"
+  ],
+  "bin": "./bin/echoipdns",
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "test": "vows test/server-test.js --spec",
+    "start": "node server.js"
+  },
+  "optionalDependencies": {},
+  "main": "echoipdns"
+}
