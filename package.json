@@ -1,7 +1,7 @@
 {
   "name": "echoipdns",
   "description": "Echo IP Wildcard DNS Server for dev environments",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/zapty/echoipdns"
