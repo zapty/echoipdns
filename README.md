@@ -120,6 +120,5 @@ Inner working
 
 Thanks
 ======
-Virtual CTO (https://virtualcto.in)
 
 This module is fork of fasterize/olodum (https://github.com/fasterize/olodum) and based on native-dns module (https://github.com/tjfontaine/node-dns)
